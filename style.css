@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+}
+
+.calc-btn {
+  background-color: silver;
+  color: #000;
+  width: 45px;
+  border: 1px solid gray;
+  text-align: center;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.calc-btn:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+#calc-parent {
+  max-width: 300px;
+  margin: 50px auto 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#calc-zero, #calc-clear {
+  width: 92px;
+}
+
+#calc-display-val {
+  width: 186px;
+  height: 60px;
+  color: #fff;
+  text-align: right;
+  font-size: 48px;
+  background-color: #383838;
+  overflow: hidden;
+  white-space: nowrap;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.calc-btn-operator {
+  background-color: orange;
+}
